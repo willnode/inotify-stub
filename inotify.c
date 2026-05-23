@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <fcntl.h>
 #include <stdint.h>
+#include <unistd.h>
 #include <sys/inotify.h>
 
 static int g_mock_wd_counter = 100;
